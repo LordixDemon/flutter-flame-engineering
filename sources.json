@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "max_file_bytes": 2000000,
+  "sources": [
+    {
+      "id": "flutter-docs",
+      "repository": "https://github.com/flutter/website.git",
+      "ref": "main",
+      "version_policy": "rolling documentation; not pinned to a Flutter SDK release",
+      "paths": ["sites/docs/src/content", "sites/docs/src/_snippets", "examples"],
+      "suffixes": [".md", ".mdx", ".dart"],
+      "license_path": "LICENSE"
+    },
+    {
+      "id": "flutter-sdk",
+      "repository": "https://github.com/flutter/flutter.git",
+      "ref": "stable",
+      "version_policy": "Flutter stable branch, recorded by commit and matching release tag",
+      "paths": ["packages/flutter/lib", "examples/api/lib"],
+      "suffixes": [".dart", ".md"],
+      "license_path": "LICENSE"
+    },
+    {
+      "id": "dart-docs",
+      "repository": "https://github.com/dart-lang/site-www.git",
+      "ref": "main",
+      "version_policy": "rolling documentation; not pinned to a Dart SDK release",
+      "paths": ["src/content", "examples"],
+      "suffixes": [".md", ".mdx", ".dart"],
+      "license_path": "LICENSE"
+    },
+    {
+      "id": "flame",
+      "repository": "https://github.com/flame-engine/flame.git",
+      "ref": "@pub-stable:flame",
+      "version_policy": "latest stable flame package from pub.dev, exact Git release tag",
+      "paths": ["doc", "packages", "examples/lib"],
+      "suffixes": [".md", ".dart", ".rst", ".yaml"],
+      "license_path": "LICENSE"
+    }
+  ]
+}

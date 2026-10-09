@@ -1,0 +1,6 @@
+interface:
+  display_name: "Flutter + Flame Engineering"
+  short_description: "Version-aware Flutter and Flame development"
+  default_prompt: "Use $flutter-flame-engineering to implement this Flutter or Flame feature using APIs verified against my project's versions."
+policy:
+  allow_implicit_invocation: true
