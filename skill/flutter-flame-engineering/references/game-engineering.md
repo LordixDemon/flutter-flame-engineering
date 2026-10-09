@@ -1,5 +1,7 @@
 # Flutter / Flame decisions
 
+English | [Русский](game-engineering.ru.md)
+
 Consult only the sections relevant to the requested feature. Verify exact APIs in the indexed release or installed package.
 
 ## UI and game lifecycle

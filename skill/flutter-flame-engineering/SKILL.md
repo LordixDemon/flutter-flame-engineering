@@ -5,6 +5,8 @@ description: Build, review, and modernize Flutter/Dart clients and Flame games u
 
 # Flutter and Flame engineering
 
+English | [Русский](SKILL.ru.md)
+
 Use evidence from the companion knowledge application to make version-correct decisions, then validate the actual implementation. The index improves retrieval; it does not guarantee correct or optimal code.
 
 ## Access the knowledge application
